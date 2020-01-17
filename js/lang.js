@@ -6,8 +6,8 @@ l = {
         },
         tip: {
             JP: '[非公式版] MopiMopi ver.200105-jp / Sheeva@Mana (JP)',
-            KR: '[Non-Official] MopiMopi ver.200105-jp / 해루@모그리',
-            EN: '[Non-Official] MopiMopi ver.200105-jp / HAERU@Moogle (KR)'
+            KR: '[Non-Official] MopiMopi ver.200105-jp / Sheeva@Mana (JP)',
+            EN: '[Non-Official] MopiMopi ver.200105-jp / Sheeva@Mana (JP)'
         },
         update: {
             KR: '<div name="row"><div class="b">01/05</div><div class="m">[Lalapauwah/Github] 대기 모드 및 히스토리 테이블 오동작 버그 수정</div></div><div name="row"><div class="n">01/01</div><div class="m">★★★ 2020년에도 모피모피와 함께! 새해 복 많이 받으세요! ★★★</div></div>',
@@ -431,12 +431,12 @@ l = {
                 CN: "版本",
             },
             m: {
-                KR: 'MopiMopi ver.200105',
-                JP: 'MopiMopi ver.200105',
-                EN: 'MopiMopi ver.200105',
-                FR: 'MopiMopi ver.200105',
-                DE: 'MopiMopi ver.200105',
-                CN: "MopiMopi ver.200105",
+                KR: 'MopiMopi ver.200105-jp',
+                JP: 'MopiMopi ver.200105-jp',
+                EN: 'MopiMopi ver.200105-jp',
+                FR: 'MopiMopi ver.200105-jp',
+                DE: 'MopiMopi ver.200105-jp',
+                CN: "MopiMopi ver.200105-jp",
             },
             i: "new_releases",
             e: "li_2line",
@@ -453,7 +453,7 @@ l = {
             },
             m: {
                 KR: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
-                JP: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
+                JP: '本バージョンについての問い合わせ先 https://twitter.com/sheeva_reactor',
                 EN: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
                 FR: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
                 DE: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
