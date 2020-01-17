@@ -516,8 +516,8 @@ function Person(e, p) {
         }
     }
     try {
-        this.maxhitstr = this.maxhit.replace(/[0-9.,']/g, "").trim().slice(0, -1)
-        this.maxhitval = parseInt(this.maxhit.replace(/[^0-9]/g, ""))
+        this.maxhitstr = this.maxhit.split("-")[0]
+        this.maxhitval = this.MAXHIT
         this.mergedmaxhitstr = this.maxhitstr
         this.mergedmaxhitval = this.maxhitval
     } catch (ex) {
@@ -528,8 +528,8 @@ function Person(e, p) {
         this.mergedmaxhitval = this.maxhitval
     }
     try {
-        this.maxhealstr = this.maxheal.replace(/[0-9.,']/g, "").trim().slice(0, -1)
-        this.maxhealval = parseInt(this.maxheal.replace(/[^0-9]/g, ""))
+        this.maxhealstr = this.maxheal.split("-")[0]
+        this.maxhealval = this.MAXHEAL
         this.mergedmaxhealstr = this.maxhealstr
         this.mergedmaxhealval = this.maxhealval
     } catch (ex) {
@@ -818,11 +818,11 @@ Combatant.prototype.AttachPets = function() {
             else
                 var owner = this.Combatant[this.Combatant[i].petOwner]
 
-            if (this.Combatant[i].maxhitval > owner.maxhitval) {
+            if (this.Combatant[i].maxhitval > owner.mergedmaxhitval) {
                 owner.mergedmaxhitval = this.Combatant[i].maxhitval
                 owner.mergedmaxhitstr = this.Combatant[i].maxhitstr
             }
-            if (this.Combatant[i].maxhealval > owner.maxhealval) {
+            if (this.Combatant[i].maxhealval > owner.mergedmaxhealval) {
                 owner.mergedmaxhealval = this.Combatant[i].maxhealval
                 owner.mergedmaxhealstr = this.Combatant[i].maxhealstr
             }
