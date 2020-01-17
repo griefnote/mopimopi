@@ -5,9 +5,8 @@ l = {
             EN: '<b style="color:#ffea00">MopiMopi<br>Experience the Incredible Customizing!</b><br><br>Mobile and Broadcast(OBS Studio, XSplit, etc.) users<br>should install the <a href="https://github.com/ZCube/ACTWebSocket/releases" target="_blank">ACTWebsocket 1.3.3.9 or higher</a> version.<br><br><b>Chrome or Safari</b> apps are recommended for mobile environment.<br>PC Users : <b>OverlayProc ❯ MUST Check "AppRegion"</b> to limit the draggable area.<br><br><font style="color:cyan">If you are using FFXIV_ACT_Plugin version 2.0.2.3 or later,<br>ACT → Plugins → FFXIV Settings Tab → <b>Check Disable Combine Pets with Owner</b>.</font><br><br>Please select <b>your language</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">中國語</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a> ❘ <a href="#" id="FR" onclick="initOverlay(this.id)">French</a><br>'
         },
         tip: {
-            JP: '[非公式版] MopiMopi ver.200105-jp / Sheeva@Mana (JP)',
-            KR: '[Non-Official] MopiMopi ver.200105-jp / Sheeva@Mana (JP)',
-            EN: '[Non-Official] MopiMopi ver.200105-jp / Sheeva@Mana (JP)'
+            KR: '[非公式版] MopiMopi ver.200105-jp / Sheeva@Mana (JP)',
+            EN: '[非公式版] MopiMopi ver.200105-jp / Sheeva@Mana (JP)'
         },
         update: {
             KR: '<div name="row"><div class="b">01/05</div><div class="m">[Lalapauwah/Github] 대기 모드 및 히스토리 테이블 오동작 버그 수정</div></div><div name="row"><div class="n">01/01</div><div class="m">★★★ 2020년에도 모피모피와 함께! 새해 복 많이 받으세요! ★★★</div></div>',
