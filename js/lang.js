@@ -1,16 +1,16 @@
 l = {
     Notice: {
         strong: {
-            KR: '<b style="color:#ffea00">모피모피<br>놀라운 커스터마이징을 경험하세요!</b><br><br>모바일과 방송(OBS Studio, XSplit 등) 유저는<br><a href="http://ffxivhaeru.blog.me/221324327150" target="_blank">ACTWebSocket 1.3.3.9 버전 이상</a>을 설치해야 합니다.<br><br>모바일 환경에서는 <b>크롬 또는 사파리</b> 앱을 권장합니다.<br>PC 유저는 <b>오버레이 프로세스 관리자 ❯ 드래그 영역 사용 체크</b> 필수입니다.<br><br><font style="color:cyan">FFXIV_ACT_Plugin.dll 2.0.2.3 버전 이상을 사용하는 유저는<br>ACT → Plugins → FFXIV Settings Tab → <b>Disable Combine Pets with Owner</b> 옵션을 체크합니다.</font><br><br>Please select <b>your language</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">中國語</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a> ❘ <a href="#" id="FR" onclick="initOverlay(this.id)">French</a><br>',
-            EN: '<b style="color:#ffea00">MopiMopi<br>Experience the Incredible Customizing!</b><br><br>Mobile and Broadcast(OBS Studio, XSplit, etc.) users<br>should install the <a href="https://github.com/ZCube/ACTWebSocket/releases" target="_blank">ACTWebsocket 1.3.3.9 or higher</a> version.<br><br><b>Chrome or Safari</b> apps are recommended for mobile environment.<br>PC Users : <b>OverlayProc ❯ MUST Check "AppRegion"</b> to limit the draggable area.<br><br><font style="color:cyan">If you are using FFXIV_ACT_Plugin version 2.0.2.3 or later,<br>ACT → Plugins → FFXIV Settings Tab → <b>Check Disable Combine Pets with Owner</b>.</font><br><br>Please select <b>your language</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">中國語</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a> ❘ <a href="#" id="FR" onclick="initOverlay(this.id)">French</a><br>'
+            KR: '<b style="color:#ffea00">모피모피<br>놀라운 커스터마이징을 경험하세요!</b><br><br>모바일 환경에서는 <b>크롬 또는 사파리</b> 앱을 권장합니다.<br>PC 유저는 <b>오버레이 프로세스 관리자 ❯ 드래그 영역 사용 체크</b> 필수입니다.<br><br><font style="color:cyan">FFXIV_ACT_Plugin.dll 2.0.2.3 버전 이상을 사용하는 유저는<br>ACT → Plugins → FFXIV Settings Tab → <b>Disable Combine Pets with Owner</b> 옵션을 체크합니다.</font><br><br>Please select <b>your language</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">中國語</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a> ❘ <a href="#" id="FR" onclick="initOverlay(this.id)">French</a><br>',
+            EN: '<b style="color:#ffea00">MopiMopi<br>Experience the Incredible Customizing!</b><br><br><b>Chrome or Safari</b> apps are recommended for mobile environment.<br>PC Users : <b>OverlayProc ❯ MUST Check "AppRegion"</b> to limit the draggable area.<br><br><font style="color:cyan">If you are using FFXIV_ACT_Plugin version 2.0.2.3 or later,<br>ACT → Plugins → FFXIV Settings Tab → <b>Check Disable Combine Pets with Owner</b>.</font><br><br>Please select <b>your language</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">中國語</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a> ❘ <a href="#" id="FR" onclick="initOverlay(this.id)">French</a><br>'
         },
         tip: {
-            KR: '[非公式版] MopiMopi ver.200105-jp / Sheeva@Mana (JP)',
-            EN: '[非公式版] MopiMopi ver.200105-jp / Sheeva@Mana (JP)'
+            KR: '[OFFICIAL] MopiMopi ver.211209 / 해루@모그리',
+            EN: '[OFFICIAL] MopiMopi ver.211209 / HAERU@Moogle (KR)'
         },
         update: {
-            KR: '<div name="row"><div class="b">01/05</div><div class="m">[Lalapauwah/Github] 대기 모드 및 히스토리 테이블 오동작 버그 수정</div></div><div name="row"><div class="n">01/01</div><div class="m">★★★ 2020년에도 모피모피와 함께! 새해 복 많이 받으세요! ★★★</div></div>',
-            EN: '<div name="row"><div class="b">Jan 05</div><div class="m">[Lalapauwah/Github] Fixed bugs about standby mode and History table</div></div><div name="row"><div class="n">Jan 01</div><div class="m">★★★ 2/0/2/0 Best wishes for a Happy New Year! ★★★</div></div>'
+            KR: '<div name="row"><div class="u">12/09</div><div class="m">[파일 지원 - 오미루@모그리] 6.0 신규 펫 데이터 추가 (SMN)</div></div><div name="row"><div class="u">12/03</div><div class="m">[파일 지원 - 오미루@모그리] 6.0 신규 직업 아이콘 추가 (RPR/SGE)</div></div><div name="row"><div class="b">12/03</div><div class="m">6.0 신규 펫이나 기술 이름 제보 바랍니다. <a href="https://docs.google.com/spreadsheets/d/1Cqni0rjvQLnXjK2dhx95xk_NOIIWXt9PK8-2gez5pTI/edit#gid=0" target="_blank">▶▶▶ 데이터 제보하기</a></div></div><div name="row"><div class="u">11/30</div><div class="m">6.0 신규 직업 데이터 추가 (RPR/SGE)</div></div><div name="row"><div class="c">04/01</div><div class="m">[Matthew Smith/Gmail] 축약어를 변경함<Br>(RD → Total DPS, RH → Total HPS, MD → My DPS, MH → My HPS)</div></div><div name="row"><div class="n">01/01</div><div class="m">★★★ 2021년에도 모피모피와 함께! 새해 복 많이 받으세요! ★★★</div></div>',
+            EN: '<div name="row"><div class="u">12/09</div><div class="m">[Files support - Oh Miru@Mana/Anima] Added data of new pets (SMN)</div></div><div name="row"><div class="u">12/03</div><div class="m">[Files support - Oh Miru@Mana/Anima] Added icon of new jobs (RPR/SGE)</div></div><div name="row"><div class="b">12/03</div><div class="m">Please report 6.0 pets or actions name. <a href="https://docs.google.com/spreadsheets/d/1Cqni0rjvQLnXjK2dhx95xk_NOIIWXt9PK8-2gez5pTI/edit#gid=0" target="_blank">▶▶▶ Report link</a></div></div><div name="row"><div class="u">11/30</div><div class="m">Added data of new jobs (RPR/SGE)</div></div><div name="row"><div class="c">04/01</div><div class="m">[Matthew Smith/Gmail] Change Abbreviations<Br>(RD → Total DPS, RH → Total HPS, MD → My DPS, MH → My HPS)</div></div><div name="row"><div class="n">01/01</div><div class="m">★★★ 2021 Best wishes for a Happy New Year! ★★★</div></div>'
         }
     },
     msg: {
@@ -37,7 +37,7 @@ l = {
         Capture: {
             m: {
                 KR: "캡쳐 파일은 ACT 폴더 하위에 있는 Screenshot 폴더에서 확인할 수 있습니다.",
-                JP: "ACTのスクリーンショットはACTフォルダの中のScreenshotフォルダで確認できます。",
+                JP: "ACTのスクショトはACTフォルダの中のScreenshotフォルダで確認できます。",
                 EN: "The capture file can be found in the Screenshot folder of your ACT directory.",
                 FR: "Le screenshot peut être trouvé dans le répertoire Screenshot d\'ACT.",
                 DE: "Du findest den aufgenommenen Screenshot in deinem ACT-Ordner unter ScreenShot.",
@@ -47,7 +47,7 @@ l = {
         submit: {
             m: {
                 KR: "변경 사항을 적용했습니다.",
-                JP: "変更を適用しました。",
+                JP: "変更事項を適応しました。",
                 EN: "The change applied.",
                 FR: "La modification a été appliquée.",
                 DE: "Einstellungen wurden übernommen.",
@@ -67,7 +67,7 @@ l = {
         hiddenTable: {
             m: {
                 KR: "대기 모드로 전환합니다.",
-                JP: "待機モードに移行します。",
+                JP: "待機モードに転換します。",
                 EN: "The overlay switches to standby mode.",
                 FR: "L\'overlay passe en mode veille.",
                 DE: "Das Overlay wurde in den Standby versetzt.",
@@ -77,7 +77,7 @@ l = {
         initConfirm: {
             m: {
                 KR: "설정에 대한 모든 변경 사항이 기본값으로 복원되고 개인 데이터가 삭제됩니다. 초기화를 진행하시겠습니까?",
-                JP: "すべての変更を基本設定に戻し、個人データを削除します。初期化を実行しますか？",
+                JP: "設定のよるすべての変更を基本値に戻し、個人データを削除します。初期化を進行しますか？",
                 EN: "Any changes to the settings will be restored to their defaults and your personal data will be deleted. Do you want to proceed with the initialization?",
                 FR: "Toutes les modificationsd des différents paramètres seront remis à zéro et vos données personnelles seront effacées. Voulez-vous lancer la réinitialisation ?",
                 DE: "Alle Einstellungen werden zurückgesetzt. Deine persönlichen Einstellungen gehen unwiderruflich verloren! Möchtest du fortfahren?",
@@ -117,7 +117,7 @@ l = {
         noData: {
             m: {
                 KR: "백업 데이터가 존재하지 않습니다.",
-                JP: "バックアップデータがありません。",
+                JP: "バックアップデーターがありません。",
                 EN: "The backup data does not exist.",
                 FR: "Aucune sauvegarde présente.",
                 DE: "Das Backup existiert nicht.",
@@ -430,12 +430,12 @@ l = {
                 CN: "版本",
             },
             m: {
-                KR: 'MopiMopi ver.200105-jp',
-                JP: 'MopiMopi ver.200105-jp',
-                EN: 'MopiMopi ver.200105-jp',
-                FR: 'MopiMopi ver.200105-jp',
-                DE: 'MopiMopi ver.200105-jp',
-                CN: "MopiMopi ver.200105-jp",
+                KR: 'MopiMopi ver.211209',
+                JP: 'MopiMopi ver.211209',
+                EN: 'MopiMopi ver.211209',
+                FR: 'MopiMopi ver.211209',
+                DE: 'MopiMopi ver.211209',
+                CN: "MopiMopi ver.211209",
             },
             i: "new_releases",
             e: "li_2line",
@@ -452,7 +452,7 @@ l = {
             },
             m: {
                 KR: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
-                JP: '本バージョンについての問い合わせ先 https://twitter.com/sheeva_reactor',
+                JP: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
                 EN: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
                 FR: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
                 DE: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
@@ -1678,6 +1678,19 @@ l = {
                 e: "li_color",
                 ul: 0
             },
+            SGE: {
+                tt: {
+                    KR: "현자",
+                    JP: "賢者",
+                    EN: "Sage",
+                    FR: "Sage",
+                    DE: "Weise",
+                    CN: "Sage",
+                },
+                i: "<img src='./images/icon/frame/SGE.png'/>",
+                e: "li_color",
+                ul: 0
+            },
             MNK: {
                 tt: {
                     KR: "몽크 & 격투사",
@@ -1727,6 +1740,19 @@ l = {
                     CN: "武士",
                 },
                 i: "<img src='./images/icon/frame/SAM.png'/>",
+                e: "li_color",
+                ul: 0
+            },
+            RPR: {
+                tt: {
+                    KR: "리퍼",
+                    JP: "リーパー",
+                    EN: "Reaper",
+                    FR: "Faucheur",
+                    DE: "Schnitter",
+                    CN: "Reaper",
+                },
+                i: "<img src='./images/icon/frame/RPR.png'/>",
                 e: "li_color",
                 ul: 0
             },
@@ -2864,12 +2890,12 @@ l = {
                 },
                 act_rd: {
                     tt: {
-                        KR: "RDPS<font class='ex'>　❙ Raid</font>",
-                        JP: "RDPS<font class='ex'>　❙ Raid</font>",
-                        EN: "RDPS<font class='ex'>　❙ Raid</font>",
-                        FR: "RDPS<font class='ex'>　❙ Raid</font>",
-                        DE: "RDPS<font class='ex'>　❙ Raid</font>",
-                        CN: "RDPS<font class='ex'>　❙ Raid</font>",
+                        KR: "Total DPS",
+                        JP: "Total DPS",
+                        EN: "Total DPS",
+                        FR: "Total DPS",
+                        DE: "Total DPS",
+                        CN: "Total DPS",
                     },
                     e: "li_checkbox",
                     i: "looks_one",
@@ -2877,12 +2903,12 @@ l = {
                 },
                 act_rh: {
                     tt: {
-                        KR: "RHPS<font class='ex'>　❙ Raid</font>",
-                        JP: "RHPS<font class='ex'>　❙ Raid</font>",
-                        EN: "RHPS<font class='ex'>　❙ Raid</font>",
-                        FR: "RHPS<font class='ex'>　❙ Raid</font>",
-                        DE: "RHPS<font class='ex'>　❙ Raid</font>",
-                        CN: "RHPS<font class='ex'>　❙ Raid</font>",
+                        KR: "Total HPS",
+                        JP: "Total HPS",
+                        EN: "Total HPS",
+                        FR: "Total HPS",
+                        DE: "Total HPS",
+                        CN: "Total HPS",
                     },
                     e: "li_checkbox",
                     i: "looks_two",
@@ -2890,12 +2916,12 @@ l = {
                 },
                 act_md: {
                     tt: {
-                        KR: "DPS<font class='ex'>　❙ 내 캐릭터</font>",
-                        JP: "DPS<font class='ex'>　❙ 自分のキャラクター</font>",
-                        EN: "DPS<font class='ex'>　❙ My Character</font>",
-                        FR: "DPS<font class='ex'>　❙ Mon personnage</font>",
-                        DE: "DPS<font class='ex'>　❙ Eigenen Charakter</font>",
-                        CN: "DPS<font class='ex'>　❙ 自己角色</font>",
+                        KR: "My DPS",
+                        JP: "My DPS",
+                        EN: "My DPS",
+                        FR: "My DPS",
+                        DE: "My DPS",
+                        CN: "My DPS",
                     },
                     e: "li_checkbox",
                     i: "looks_3",
@@ -2903,12 +2929,12 @@ l = {
                 },
                 act_mh: {
                     tt: {
-                        KR: "HPS<font class='ex'>　❙ 내 캐릭터</font>",
-                        JP: "HPS<font class='ex'>　❙ 自分のキャラクター</font>",
-                        EN: "HPS<font class='ex'>　❙ My Character</font>",
-                        FR: "HPS<font class='ex'>　❙ Mon personnage</font>",
-                        HE: "HPS<font class='ex'>　❙ Eigenen Charakter</font>",
-                        CN: "HPS<font class='ex'>　❙ 自己角色</font>",
+                        KR: "My HPS",
+                        JP: "My HPS",
+                        EN: "My HPS",
+                        FR: "My HPS",
+                        HE: "My HPS",
+                        CN: "My HPS",
                     },
                     e: "li_checkbox",
                     i: "looks_4",

@@ -450,6 +450,7 @@ function Person(e, p) {
             case "SCH":
             case "WHM":
             case "AST":
+            case "SGE":
                 this.role = "Healer";
                 break;
             case "PLD":
@@ -467,11 +468,14 @@ function Person(e, p) {
         "이프리트 에기", "イフリート・エギ", "伊弗利特之灵", "Ifrit-Egi",
         "타이탄 에기", "タイタン・エギ", "泰坦之灵", "Titan-Egi",
         "데미바하무트", "デミ・バハムート", "亚灵神巴哈姆特", "Demi-Bahamut", "デミ・フェニックス",
-        "데미피닉스", "Demi-Phönix", "Demi-Phénix", "Demi-Phoenix", "亚灵神不死鸟"
+        "데미피닉스", "Demi-Phönix", "Demi-Phénix", "Demi-Phoenix", "亚灵神不死鸟",
+        "Ruby Ifrit", "Ifrit rubis", "Rubin-Ifrit", "イフリート・ルビー",
+        "Topaz Titan", "Titan topaze", "Topas-Titan", "タイタン・トパーズ",
+        "Emerald Garuda", "Garuda émeraude", "Smaragd-Garuda", "ガルーダ・エメラルド"
     ];
-    var mchPetsList = ["자동포탑 룩", "オートタレット・ルーク", "车式浮空炮塔", "Selbstschuss-Gyrocopter TURM", "Auto-tourelle Tour", "Rook Autoturret",
-        "자동포탑 비숍", "オートタレット・ビショップ", "象式浮空炮塔", "Selbstschuss-Gyrocopter LÄUFER", "Auto-tourelle Fou", "Bishop Autoturret",
-        "オートマトン・クイーン", "Automaton DAME", "Automate Reine", "Automaton Queen", "后式自走人偶", "자동인형 퀸"
+    var mchPetsList = ["자동포탑 룩", "オートタレット・ルーク", "车式浮空炮塔", "Selbstschuss-Gyrocopter Turm", "Auto-tourelle Tour", "Rook Autoturret",
+        "자동포탑 비숍", "オートタレット・ビショップ", "象式浮空炮塔", "Selbstschuss-Gyrocopter Läufer", "Auto-tourelle Fou", "Bishop Autoturret",
+        "オートマトン・クイーン", "Automaton Dame", "Automate Reine", "Automaton Queen", "后式自走人偶", "자동인형 퀸"
     ];
     var schPetsList = ["요정 에오스", "フェアリー・エオス", "朝日小仙女", "Eos",
         "요정 셀레네", "フェアリー・セレネ", "夕月小仙女", "Selene",
@@ -480,6 +484,7 @@ function Person(e, p) {
     var drkPetsList = ["영웅의 환영", "英雄の影身", "Hochachtung", "Estime", "Esteem", "英雄的掠影"];
     var ninPetsList = ["分身", "Gedoppeltes Ich", "Ombre", "Bunshin", "분신"];
     var astPetsList = ["지상의 별", "アーサリースター", "地星", "Earthly Star", "Étoile terrestre", "Irdischer Stern"];
+    var whmPetsList = ["Liturgy of the Bell", "リタージー・オブ・ベル", "Tintinnabule", "Verbesserter Göttlicher Segen"];
 
     var petsName = this.name.split(' (')[0];
     if (this.Class == "") {
@@ -508,6 +513,11 @@ function Person(e, p) {
         } else if (astPetsList.indexOf(petsName) > -1) {
             this.Job = "AVA";
             this.Class = "AST";
+            this.isPet = true;
+            this.role = "Healer";
+        } else if (whmPetsList.indexOf(petsName) > -1) {
+            this.Job = "AVA";
+            this.Class = "WHM";
             this.isPet = true;
             this.role = "Healer";
         } else if (this.name.indexOf("(") == -1) {
