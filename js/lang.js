@@ -452,7 +452,7 @@ l = {
             },
             m: {
                 KR: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
-                JP: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
+                JP: '本バージョンについての問い合わせ先 > Twitter @griefnote',
                 EN: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
                 FR: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
                 DE: 'FF14 KR Moogle 해루 ❯ ffxivHAERU@gmail.com',
@@ -3824,7 +3824,7 @@ l = {
         refresh: {
             tt: {
                 KR: "새로고침",
-                JP: "リーロド",
+                JP: "リロード",
                 EN: "Refresh",
                 FR: "Rafraîchir",
                 DE: "Auffrischen",
